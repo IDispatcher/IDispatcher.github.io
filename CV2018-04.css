@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600');
+
+body{
+	display:flex;
+	margin: 0 5px;
+	max-width: 1220px;
+}
+.side,
+.content{
+	border: 1px dotted red;
+	font-family: 'Open Sans', 'Roboto', Verdana, sans-serif; 
+}
+
+.side{
+	width: 32%;
+	min-width: 190px;
+	max-width: 300px;
+	background-color: #e6e7e8;} 
+
+.content{
+	width: 63%;}
+
+.content > * {
+	margin-left: 30px;
+}
+
+.photo{
+	width: 100%;}
+
+.icon {
+	height: 2em;
+	vertical-align: middle;
+	padding: 5px 20px 5px 15px;
+}
+.phone {
+	
+	background-color: #00639e;
+}
+.mail{
+	background-color: #007dc5;
+}
+.skype{
+	background-color: #009bdf;}
+
+.side a {
+	text-decoration: none;
+	font-size: 12px;
+	color: inherit;}
+
+.phone,
+.mail,
+.skype {
+	padding: 5px 0;
+	color: white;
+	font-weight: 300;}
+
+h1 {
+	color: #00aeef;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-family: 'Century gothic';
+}
+
+h2 {
+	padding-left: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Century gothic';
+	text-transform: uppercase;
+	}
+
+.title{
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.skills p {
+	font-size: 12px;
+	font-weight: 500;
+	padding-left: 10px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.divider{
+	min-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	background-color: #e6e7e8;
+}
+.divider > strong { padding-left: 30px;}
+
+.exp-item {
+	width: 100%;
+	font-size: 12px;} 
+
+caption{
+	text-align: center;
+	margin: 15px 0 10px 0;
+	font-weight: 600;
+	font-size: 13px;}
+
+.key{
+	width: 30%;
+	color: #00639e;
+	text-align: right;
+	vertical-align: top;
+	padding-right: 20px;
+}
+.value{
+	text-align: left;
+	padding-bottom: 3px;
+}
+/* .education{
+	margin-left: 250px;
+} */
