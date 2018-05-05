@@ -1,58 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600');
-
-body{
-	display:flex;
-	margin: 0 5px;
-	max-width: 1220px;
+body {
+	display: flex;
+	max-width: 1420px;
 }
+
 .side,
-.content{
-	border: 1px dotted red;
-	font-family: 'Open Sans', 'Roboto', Verdana, sans-serif; 
+.content {
+	font-family: 'Open Sans', 'Roboto', Verdana, sans-serif;
 }
 
-.side{
+.side {
 	width: 32%;
-	min-width: 190px;
+	min-width: 220px;
 	max-width: 300px;
-	background-color: #e6e7e8;} 
+	background-color: #e6e7e8;
+}
 
-.content{
-	width: 63%;}
+.content {
+	width: 100%;
+}
 
-.content > * {
+.content>* {
 	margin-left: 30px;
 }
 
-.photo{
-	width: 100%;}
+.summary {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.photo {
+	width: 100%;
+}
 
 .icon {
 	height: 2em;
 	vertical-align: middle;
 	padding: 5px 20px 5px 15px;
 }
+
 .phone {
-	
 	background-color: #00639e;
 }
-.mail{
+
+.mail {
 	background-color: #007dc5;
 }
-.skype{
-	background-color: #009bdf;}
+
+.skype {
+	background-color: #009bdf;
+}
 
 .side a {
 	text-decoration: none;
 	font-size: 12px;
-	color: inherit;}
+	color: inherit;
+}
 
 .phone,
 .mail,
 .skype {
 	padding: 5px 0;
 	color: white;
-	font-weight: 300;}
+	font-weight: 300;
+}
 
 h1 {
 	color: #00aeef;
@@ -69,55 +80,63 @@ h2 {
 	font-weight: bold;
 	font-family: 'Century gothic';
 	text-transform: uppercase;
-	}
+}
 
-.title{
+.title {
 	font-size: 20px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
-.skills ul {padding-left: 20px;}
+.skills ul {
+	padding-left: 20px;
+}
+
 .skills li {
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 500;
 	padding-left: 5px;
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
 
-.divider{
+.divider {
 	min-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	text-transform: uppercase;
 	background-color: #e6e7e8;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-.divider > strong { 
+
+.divider>strong {
+	font-size: 18px;
 	padding-left: 30px;
 }
 
 .exp-item {
 	width: 100%;
-	font-size: 12px;} 
+	font-size: 15px;
+}
 
-caption{
+caption {
 	text-align: center;
 	margin: 15px 0 10px 0;
 	font-weight: 600;
-	font-size: 13px;}
+	font-size: 15px;
+}
 
-.key{
+.key {
 	width: 30%;
 	color: #00639e;
 	text-align: right;
 	vertical-align: top;
 	padding-right: 20px;
 }
-.value{
+
+.value {
 	text-align: left;
 	padding-bottom: 3px;
 }
