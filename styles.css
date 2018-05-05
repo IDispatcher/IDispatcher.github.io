@@ -20,7 +20,7 @@ body {
 	width: 100%;
 }
 
-.content>* {
+.content > * {
 	margin-left: 30px;
 }
 
@@ -51,6 +51,15 @@ body {
 	background-color: #009bdf;
 }
 
+.as-pdf {
+	/* width: 70px; */
+	margin-top: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
 .side a {
 	text-decoration: none;
 	font-size: 12px;
@@ -59,7 +68,8 @@ body {
 
 .phone,
 .mail,
-.skype {
+.skype,
+.getPdf {
 	padding: 5px 0;
 	color: white;
 	font-weight: 300;
@@ -111,10 +121,12 @@ h2 {
 	padding-bottom: 10px;
 }
 
-.divider>strong {
+.divider > strong {
 	font-size: 18px;
 	padding-left: 30px;
 }
+
+.experience {margin-left: 10px;}
 
 .exp-item {
 	width: 100%;
