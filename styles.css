@@ -51,13 +51,22 @@ body {
 	background-color: #009bdf;
 }
 
-.as-pdf {
+.as-pdf2 {
 	/* width: 70px; */
 	margin-top: 50px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+
+.as-pdf {
+	/* width: 70px; */
+	margin-top: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .side a {
