@@ -51,22 +51,18 @@ body {
 	background-color: #009bdf;
 }
 
-.as-pdf2 {
-	/* width: 70px; */
-	margin-top: 50px;
+.save-as-pdf {
+	width: 25%;
+	margin-top: 20px;
 	display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+	margin-right: auto;
+	filter: grayscale(.6);
 }
-
-.as-pdf {
-	/* width: 70px; */
-	margin-top: 50px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+.save-as-pdf:hover{
+	filter: grayscale(0);
+	width:27%;
+	cursor: pointer;
 }
 
 .side a {
@@ -82,6 +78,11 @@ body {
 	padding: 5px 0;
 	color: white;
 	font-weight: 300;
+}
+
+.reference {
+	margin-left: 25px;
+	padding-bottom: 10px;
 }
 
 h1 {
@@ -135,7 +136,8 @@ h2 {
 	padding-left: 30px;
 }
 
-.experience {margin-left: 10px;}
+.experience {
+	margin-left: 10px;}
 
 .exp-item {
 	width: 100%;
