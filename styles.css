@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600'); */
+/* @import url('https://fonts.googleapis.com/css?family=Clear+Sans:300,400,500,600'); */
+
 body {
 	display: flex;
 	max-width: 1420px;
@@ -6,7 +8,8 @@ body {
 
 .side,
 .content {
-	font-family: 'Open Sans', 'Roboto', Verdana, sans-serif;
+	/* font-family: 'Open Sans', 'Roboto', Verdana, sans-serif; */
+	font-family: 'Clear Sans', 'Roboto', Verdana, sans-serif;
 }
 
 .side {
