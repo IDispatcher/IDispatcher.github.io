@@ -1,163 +1,196 @@
 body {
-	display: flex;
-	max-width: 1420px;
+  display: flex;
+  max-width: 1420px;
 }
 
 .side,
 .content {
-	font-family: 'Clear Sans', 'Roboto', Verdana, sans-serif;
+  font-family: "Clear Sans", "Roboto", Verdana, sans-serif;
 }
 
 .side {
-	width: 32%;
-	min-width: 220px;
-	max-width: 300px;
-	background-color: #e6e7e8;
+  width: 32%;
+  min-width: 220px;
+  max-width: 300px;
+  background-color: #e6e7e8;
 }
 
 .content {
-	width: 100%;
+  width: 100%;
 }
 
 .content > * {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 .summary {
-	margin-top: 30px;
-	margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .photo {
-	width: 100%;
+  width: 100%;
 }
 
 .icon {
-	height: 2em;
-	vertical-align: middle;
-	padding: 5px 20px 5px 15px;
+  height: 2em;
+  vertical-align: middle;
+  padding: 5px 20px 5px 15px;
 }
 
 .phone {
-	background-color: #00639e;
+  background-color: #00639e;
 }
 
 .mail {
-	background-color: #007dc5;
+  background-color: #007dc5;
 }
 
 .skype {
-	background-color: #009bdf;
+  background-color: #009bdf;
 }
 
 .save-as-pdf {
-	width: 25%;
-	margin-top: 20px;
-	display: block;
-    margin-left: auto;
-	margin-right: auto;
-	filter: grayscale(.6);
+  width: 25%;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: grayscale(0.6);
 }
-.save-as-pdf:hover{
-	filter: grayscale(0);
-	width:27%;
-	cursor: pointer;
+.save-as-pdf:hover {
+  filter: grayscale(0);
+  width: 27%;
+  cursor: pointer;
 }
 
 .side a {
-	text-decoration: none;
-	font-size: 12px;
-	color: inherit;
+  text-decoration: none;
+  font-size: 12px;
+  color: inherit;
 }
 
 .phone,
 .mail,
 .skype,
 .getPdf {
-	padding: 5px 0;
-	color: white;
-	font-weight: 300;
+  padding: 5px 0;
+  color: white;
+  font-weight: 300;
 }
 
 .reference {
-	margin-left: 25px;
-	padding-bottom: 10px;
+  margin-left: 25px;
+  padding-bottom: 10px;
 }
 
 h1 {
-	color: #00aeef;
-	font-weight: bold;
-	letter-spacing: 2px;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-	font-family: 'Century gothic';
+  color: #00aeef;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "Century gothic";
 }
 
 h2 {
-	padding-left: 50px;
-	font-size: 16px;
-	font-weight: bold;
-	text-transform: uppercase;
+  padding-left: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .title {
-	font-size: 20px;
-	font-weight: 600;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .skills ul {
-	padding-left: 20px;
+  padding-left: 20px;
 }
 
 .skills li {
-	font-size: 15px;
-	font-weight: 500;
-	padding-left: 5px;
-	margin-top: 6px;
-	margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .divider {
-	min-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	text-transform: uppercase;
-	background-color: #e6e7e8;
-	padding-top: 10px;
-	padding-bottom: 10px;
+  min-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  background-color: #e6e7e8;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .divider > strong {
-	font-size: 18px;
-	padding-left: 30px;
+  font-size: 18px;
+  padding-left: 30px;
 }
 
 .experience {
-	margin-left: 10px;}
+  margin: 20px 0px 5px 10px;
+}
 
 .exp-item {
-	width: 100%;
-	font-size: 15px;
+  width: 100%;
+  font-size: 15px;
 }
 
 caption {
-	text-align: center;
-	margin: 15px 0 10px 0;
-	font-weight: 600;
-	font-size: 15px;
+  text-align: center;
+  margin: 15px 0 10px 0;
+  font-weight: 600;
+  font-size: 15px;
 }
 
-.key {
-	width: 20%;
-	color: #00639e;
-	text-align: right;
-	vertical-align: top;
-	padding-right: 20px;
+.company-logo {
+  float: left;
+  width: 52px;
+  border-radius: 5px;
 }
 
-.value {
-	text-align: left;
-	padding-bottom: 3px;
+.company {
+  margin-top: 20px;
+}
+
+.projects > * {
+  margin: 0 0 10px 20px;
+}
+
+.company-name {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 2px 0 5px 20px;
+}
+
+.projects {
+  display: grid;
+}
+
+.period {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.project-name {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 15px 0 5px 30px;
+}
+
+.project-description {
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+.stack {
+  margin: 0 10px 0 10px;
+  color: rgba(0, 0, 0, 0.6);
 }
